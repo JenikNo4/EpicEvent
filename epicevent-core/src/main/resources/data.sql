@@ -1,1 +1,2 @@
-INSERT INTO `USER` (`id`, `disabled`, `email`, `login`, `name`, `password`, `phone`, `surename`) VALUES (1, 0, 'admin', 'admin', 'admin', 'admin', 420731731731, 'admin')
+INSERT INTO `USER` (`id`, `disabled`, `email`, `login`, `name`, `password`, `phone`, `surename`) VALUES (1, 0, 'admin', 'admin', 'admin', 'admin', 420731731731, 'admin');
+INSERT INTO `USER_ROLE` (`id`,`user_role`) VALUES (1,'ADMIN');
